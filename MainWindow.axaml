@@ -1,0 +1,46 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
+        x:Class="Yandex.MainWindow"
+        Title="Yandex">
+	<Window.Background>
+	<ImageBrush Source="C:\Users\prdb\Klim\Yandex\Image\les-fon.jpg"/>
+	</Window.Background>
+	<Panel Background="White" Height="520" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+	<Button Margin="0,151,0,10" Background="#202020" Foreground="White" Height="50" Width="260" HorizontalAlignment="Center" VerticalAlignment="Stretch" CornerRadius="16">
+	<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">
+		Войти
+	</TextBlock>
+</Button>
+		<Button Margin="0,271,0,10" Background="White" Foreground="Black" Height="50" Width="260" HorizontalAlignment="Center" VerticalAlignment="Stretch" CornerRadius="16" BorderBrush="Gray">
+			<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">
+				Создать ID
+			</TextBlock>
+		</Button>
+		<Button Margin="21,430,0,10" Background="White" Foreground="Black" Height="50" Width="120" HorizontalAlignment="Left" VerticalAlignment="Stretch" CornerRadius="16" BorderBrush="Gray">
+			<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">
+				QR-код
+			</TextBlock>
+		</Button>
+		<Button Margin="160,430,0,10" Background="White" Foreground="Black" Height="50" Width="120" HorizontalAlignment="Left" VerticalAlignment="Stretch" CornerRadius="16" BorderBrush="Gray">
+			<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">
+				Ещё
+			</TextBlock>
+		</Button>
+		<TextBox FontSize="30" Watermark="Логин или email" Margin="0,11,0,10" Background="White" Foreground="Black" Height="50" Width="260" HorizontalAlignment="Center" VerticalAlignment="Stretch" CornerRadius="16"/>
+		<TextBox Margin="0,-135,0,10" Background="White" Foreground="Black" Height="50" Width="260" HorizontalAlignment="Center" VerticalAlignment="Stretch" CornerRadius="16"/>
+		<Button Margin="21,-135,0,10" Background="White" Foreground="Black" Height="50" Width="120" HorizontalAlignment="Left" VerticalAlignment="Stretch" CornerRadius="16">
+			<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">
+				Почта
+			</TextBlock>
+		</Button>
+		<Button Margin="160,-135,0,10" Background="White" Foreground="Black" Height="50" Width="120" HorizontalAlignment="Left" VerticalAlignment="Stretch" CornerRadius="16">
+			<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">
+				Телефон
+			</TextBlock>
+		</Button>
+		<Image Margin="0,10,0,10" HorizontalAlignment="Center" VerticalAlignment="Top" Source="C:\Users\prdb\Klim\Yandex\Image\Яндекс.png"/>
+	</Panel>
+</Window>
