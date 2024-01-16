@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
         x:Class="Yandex.MainWindow"
-        Title="Yandex" MaxWidth="1280" MinWidth="1280" MaxHeight="720" MinHeight="720">
+        Title="Yandex" MaxWidth="1920" MinWidth="1920" MaxHeight="1080" MinHeight="1080">
 	<Window.Background>
 	<ImageBrush Source="C:\Users\prdb\Klim\Yandex\Image\les-fon.jpg"/>
 	</Window.Background>
